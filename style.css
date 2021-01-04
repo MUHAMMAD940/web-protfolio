@@ -1,23 +1,60 @@
-body{
-    font-family: 'Poppins', sans-serif;
-}
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
 
 
-h1{
-    font-size: 50px;;
-}
+    h1{
+        font-size: 50px;;
+    }
 
-.name-highlighte{
-    color: orange;
-}
+    .name-highlighte{
+        color: orange;
+    }
 
-.half-width{
-    width: 40%;
-    float: left;
-    margin-left: 5%;
-    padding-left: 2%;
-}
+    .half-width{
+        width: 40%;
+        float: left;
+        margin-left: 5%;
+        padding-left: 2%;
+    }
 
-.half-width img{
-    width: 100%;
-}
+    .half-width img{
+        width: 100%;
+    }
+
+    .header-part{
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+
+    }
+
+    section{
+        height: 500px;
+        padding-bottom: 50px;
+    }
+
+    .link-btn{
+        text-decoration: none;
+        background-image: linear-gradient(45deg, lightSalmon, tomato);
+        padding: 10px 20px;
+        border-radius: 5px;
+        color: wheat;
+        font-weight: 700;
+
+    }
+
+    h2{
+        font-size: 40px;
+    }
+
+    p{
+        color: dimgray;
+    }
+
+    .dream-area{
+        background-image: url(images/dream-bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+
+    }
